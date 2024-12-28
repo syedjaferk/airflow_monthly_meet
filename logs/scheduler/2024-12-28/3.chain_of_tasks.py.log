@@ -1,0 +1,36 @@
+[2024-12-28T17:02:20.956+0000] {processor.py:186} INFO - Started process (PID=1333) to work on /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:02:20.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3.chain_of_tasks.py for tasks to queue
+[2024-12-28T17:02:20.959+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:02:20.968+0000] {processor.py:925} INFO - DAG(s) 'chain_tasks' retrieved from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:02:21.057+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.057+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:chain_tasks
+[2024-12-28T17:02:21.065+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.065+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:chain_tasks
+[2024-12-28T17:02:21.070+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.070+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:chain_tasks
+[2024-12-28T17:02:21.076+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.076+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:chain_tasks
+[2024-12-28T17:02:21.081+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.081+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:chain_tasks
+[2024-12-28T17:02:21.087+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.086+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:chain_tasks
+[2024-12-28T17:02:21.092+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.092+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:chain_tasks
+[2024-12-28T17:02:21.092+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:02:21.103+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.102+0000] {dag.py:3262} INFO - Creating ORM DAG for chain_tasks
+[2024-12-28T17:02:21.112+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:21.112+0000] {dag.py:4180} INFO - Setting next_dagrun for chain_tasks to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:02:21.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3.chain_of_tasks.py took 0.178 seconds
+[2024-12-28T17:02:51.265+0000] {processor.py:186} INFO - Started process (PID=1406) to work on /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:02:51.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3.chain_of_tasks.py for tasks to queue
+[2024-12-28T17:02:51.269+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:51.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:02:51.279+0000] {processor.py:925} INFO - DAG(s) 'chain_tasks' retrieved from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:02:51.303+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:51.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:02:51.324+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:51.324+0000] {dag.py:4180} INFO - Setting next_dagrun for chain_tasks to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:02:51.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3.chain_of_tasks.py took 0.083 seconds
+[2024-12-28T17:03:21.679+0000] {processor.py:186} INFO - Started process (PID=1481) to work on /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:03:21.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3.chain_of_tasks.py for tasks to queue
+[2024-12-28T17:03:21.682+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:21.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:03:21.691+0000] {processor.py:925} INFO - DAG(s) 'chain_tasks' retrieved from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:03:21.709+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:21.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:03:21.727+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:21.727+0000] {dag.py:4180} INFO - Setting next_dagrun for chain_tasks to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:03:21.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3.chain_of_tasks.py took 0.068 seconds
+[2024-12-28T17:03:52.462+0000] {processor.py:186} INFO - Started process (PID=1558) to work on /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:03:52.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3.chain_of_tasks.py for tasks to queue
+[2024-12-28T17:03:52.464+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:52.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:03:52.474+0000] {processor.py:925} INFO - DAG(s) 'chain_tasks' retrieved from /opt/airflow/dags/3.chain_of_tasks.py
+[2024-12-28T17:03:52.494+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:52.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:03:52.517+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:52.516+0000] {dag.py:4180} INFO - Setting next_dagrun for chain_tasks to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:03:52.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3.chain_of_tasks.py took 0.080 seconds

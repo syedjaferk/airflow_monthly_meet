@@ -1,0 +1,36 @@
+[2024-12-28T17:02:20.522+0000] {processor.py:186} INFO - Started process (PID=1330) to work on /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:02:20.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.conditional_flow.py for tasks to queue
+[2024-12-28T17:02:20.525+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:02:20.535+0000] {processor.py:925} INFO - DAG(s) 'conditional_workflow' retrieved from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:02:20.629+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.628+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:conditional_workflow
+[2024-12-28T17:02:20.638+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.638+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:conditional_workflow
+[2024-12-28T17:02:20.644+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.643+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:conditional_workflow
+[2024-12-28T17:02:20.651+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.650+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:conditional_workflow
+[2024-12-28T17:02:20.656+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.656+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:conditional_workflow
+[2024-12-28T17:02:20.663+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.662+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:conditional_workflow
+[2024-12-28T17:02:20.670+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.669+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:conditional_workflow
+[2024-12-28T17:02:20.670+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:02:20.682+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.682+0000] {dag.py:3262} INFO - Creating ORM DAG for conditional_workflow
+[2024-12-28T17:02:20.691+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:20.691+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_workflow to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:02:20.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.conditional_flow.py took 0.191 seconds
+[2024-12-28T17:02:51.089+0000] {processor.py:186} INFO - Started process (PID=1403) to work on /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:02:51.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.conditional_flow.py for tasks to queue
+[2024-12-28T17:02:51.091+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:51.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:02:51.102+0000] {processor.py:925} INFO - DAG(s) 'conditional_workflow' retrieved from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:02:51.124+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:51.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:02:51.148+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:02:51.147+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_workflow to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:02:51.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.conditional_flow.py took 0.086 seconds
+[2024-12-28T17:03:21.530+0000] {processor.py:186} INFO - Started process (PID=1478) to work on /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:03:21.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.conditional_flow.py for tasks to queue
+[2024-12-28T17:03:21.533+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:21.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:03:21.544+0000] {processor.py:925} INFO - DAG(s) 'conditional_workflow' retrieved from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:03:21.564+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:21.564+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:03:21.584+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:21.584+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_workflow to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:03:21.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.conditional_flow.py took 0.076 seconds
+[2024-12-28T17:03:52.324+0000] {processor.py:186} INFO - Started process (PID=1555) to work on /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:03:52.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.conditional_flow.py for tasks to queue
+[2024-12-28T17:03:52.327+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:52.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:03:52.336+0000] {processor.py:925} INFO - DAG(s) 'conditional_workflow' retrieved from /opt/airflow/dags/6.conditional_flow.py
+[2024-12-28T17:03:52.356+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:52.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-28T17:03:52.377+0000] {logging_mixin.py:190} INFO - [2024-12-28T17:03:52.377+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_workflow to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-12-28T17:03:52.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.conditional_flow.py took 0.077 seconds
